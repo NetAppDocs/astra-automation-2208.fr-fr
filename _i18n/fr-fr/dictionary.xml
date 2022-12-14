@@ -676,8 +676,6 @@
   <block id="0b7d1e8a8b66c054d1b104e700b7bd15" category="admonition">Il n'y a pas de nouveaux problèmes connus avec la version 22.08 de l'API REST Astra Control. Les problèmes décrits ci-dessous ont été découverts dans les versions précédentes et sont toujours applicables avec la version actuelle.</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">Tous les périphériques de stockage d'un nœud de stockage interne ne sont pas détectés</block>
   <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">Lors de l'émission d'un appel d'API REST pour récupérer les périphériques de stockage définis dans un nœud de stockage, seuls les périphériques de stockage de données Astra sont découverts. Tous les périphériques ne sont pas renvoyés.</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Le stockage back-end d'Astra dans un état inconnu</block>
-  <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">Le système backend de stockage des magasins de données d'Astra<block ref="88183b946cc5f0e8c96b2e66e1c74a7e" prefix=" " category="inline-code"></block> État après émission d'un appel API pour récupérer le back-end de stockage. Dans cet état, le système back-end est toujours disponible et peut être communiqué avec. Toutefois, un composant du système de stockage back-end est probable qu'il soit défectueux et doit être ramené à un état sain pour que le système back-end puisse afficher le<block ref="78945de8de090e90045d299651a68a9b" prefix=" " category="inline-code"></block>.</block>
   <block id="7128d9d8a839786105f002007172fbe5" category="summary">NetApp met régulièrement à jour l'API REST Astra Control pour vous apporter de nouvelles fonctionnalités, des améliorations et des correctifs.</block>
   <block id="c93cc787737ceea532bea714170e32cf" category="doc">Nouveautés de l'API REST Astra Control</block>
   <block id="affab1573a02975db1b9ece3ebe809a2" category="section-title">10 août 2022 (22.08)</block>
@@ -1022,4 +1020,61 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="365c8dec8255a8a164436c71a2611920" category="sidebar">À l'aide de Python</block>
   <block id="35bcd8d33247c44923eb71df2f2f0a2d" category="sidebar">Python natif</block>
+  <block id="305f82eee427805e1142e3f58b3e6aff" category="paragraph-title">Basée sur la technologie REST</block>
+  <block id="9f58c2cc1c4a1a9d30320aec8702f1e5" category="paragraph-title">Prise en charge des deux modèles de déploiement Astra Control</block>
+  <block id="308e494b1e26dffecccd3503e87801ab" category="paragraph-title">Effacez le mappage entre les ressources du terminal REST et le modèle d'objet</block>
+  <block id="5c4c20c54ea821de85f6857e32e28368" category="paragraph-title">Ensemble complet de paramètres de requête</block>
+  <block id="807ccc731ac69ad871b23fef84f7a6a9" category="paragraph-title">Alignement avec l'interface utilisateur Web Astra Control</block>
+  <block id="d92a4a4962077027ebae61f4c351e303" category="paragraph-title">Données robustes de débogage et de détermination des problèmes</block>
+  <block id="04bff76b57babc7298f6780f4f20901e" category="paragraph-title">Processus de flux de travail</block>
+  <block id="fcf3c3d757005a8b62346f06f3b393ff" category="paragraph-title">Socle des technologies d'automatisation avancées</block>
+  <block id="d4f45c394127f6c3eb5c89e1eb467c9b" category="paragraph-title">Fait partie de la documentation de la gamme Astra</block>
+  <block id="6e84a7dae5ae82dd22a0ec6f456dbc8d" category="paragraph-title">En tant que racine</block>
+  <block id="faf17fd8415851163c880ffe0eee8b37" category="paragraph-title">Catégorie de ressource de point final</block>
+  <block id="1a13e0be61ce3aab0376745ec89773a0" category="paragraph-title">Version de catégorie</block>
+  <block id="b59579c5294990b3465d2a6e5a853fc0" category="paragraph-title">Instance ou collection de ressources</block>
+  <block id="fc068ae597c9019f5d61b19badc39991" category="paragraph-title">Transaction d'API de demande et de réponse</block>
+  <block id="54ba5d4469f49d79d837dd2472a96c36" category="paragraph-title">Prise en charge du modèle opérationnel CRUD</block>
+  <block id="b6af2b8fdca63591236d48930018b8db" category="paragraph-title">Types de ressource</block>
+  <block id="515fc3276bd3187a4917ddf7d57db2be" category="paragraph-title">Instances de ressources</block>
+  <block id="c63467857ced87bca573cc84332ea38e" category="paragraph-title">Collections de ressources</block>
+  <block id="55920bcaefa36a6964fdc7020a835d5f" category="paragraph-title">Identifiants d'instances</block>
+  <block id="2ed6f74fc82a2206a6fa7ea55363656c" category="paragraph-title">Les données communes</block>
+  <block id="647f6448e005296f7ac5b882aa71a868" category="paragraph-title">Objet de métadonnées</block>
+  <block id="6cb8b958a36383ed1b7bacc626d0a5dd" category="paragraph-title">État de la ressource</block>
+  <block id="1a615153bb2bd3389942d44023a8f4bb" category="paragraph-title">Possèdent des identifiants de compte Astra</block>
+  <block id="7e8def8db3d7d1cc38b119879791cb9b" category="paragraph-title">Concepts de base de Kubernetes</block>
+  <block id="0182974655f974e8429fb64bb3d15eb2" category="paragraph-title">Examiner les concepts DE REPOS et la mise en œuvre</block>
+  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="paragraph-title">En savoir plus</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Description de la tâche</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Une fois que vous avez terminé</block>
+  <block id="7a947a0e78de7f2a4b74b7420db98fc3" category="paragraph-title">Kit de développement Astra</block>
+  <block id="042f2f95117cad397f19ae8bda1b2bbf" category="paragraph-title">Script Toolkit</block>
+  <block id="f789019254e2d94578114761c04bb180" category="paragraph-title">Pack Python</block>
+  <block id="0c9b6306d32fc8f44ff469ab235c5104" category="paragraph-title">Code source GitHub</block>
+  <block id="a2c5d7f1ae59d7e25522b6b34ea1f27f" category="paragraph-title">Résumé des options d'installation</block>
+  <block id="1737ce95b71a7983a78611220c00300c" category="paragraph-title">Exigences relatives à l'environnement Astra Control</block>
+  <block id="dfbe44cf1815fe1873dd8a7c434bcda9" category="paragraph-title">Exigences relatives au kit de développement logiciel NetApp Astra Control Python</block>
+  <block id="3c91a74236fab100f024452f6df13b5e" category="paragraph-title">Python 3</block>
+  <block id="56fc4201e750acc72a0afd74dd68fbf7" category="paragraph-title">Bibliothèques supplémentaires</block>
+  <block id="7a7bc312cecb8df7c0104f60400498da" category="paragraph-title">Accès réseau</block>
+  <block id="479ddc3e49067c67012525e145d88610" category="paragraph-title">Informations d'identité</block>
+  <block id="11509d3a68301ed377a3d4e05dcd020d" category="paragraph-title">Uniquement pris en charge avec Astra Control Center</block>
+  <block id="1b3d71d0079defa6c1b78bd3f95eca13" category="paragraph-title">Configuration de l'API REST uniquement</block>
+  <block id="743f17b310d3349edb0c1f45cc81de25" category="paragraph-title">Serveur LDAP requis</block>
+  <block id="8dccbd929a8dad2beba58b2f79ba3436" category="paragraph-title">Connexion sécurisée au serveur LDAP</block>
+  <block id="84bc6bd3e8bef314de14969bdd159ece" category="paragraph-title">Configurer des utilisateurs ou des groupes</block>
+  <block id="b42b70c1eeb08f4931a7765d41130fe7" category="paragraph-title">Contrainte de rôle lors de la liaison d'un utilisateur ou d'un groupe</block>
+  <block id="610559891957534380ce83e8c749ad4b" category="paragraph-title">Informations d'identification LDAP</block>
+  <block id="a2a945099fa6ce86e287032c4a7995a0" category="paragraph-title">Adresses e-mail uniques</block>
+  <block id="0a6eb1c694ac34589f0bb421705552b0" category="paragraph-title">Vous pouvez éventuellement définir d'abord les utilisateurs et les groupes LDAP</block>
+  <block id="b1237b8e9dcb5a28b7d8e23df54f6b0d" category="paragraph-title">Utilisateur défini dans plusieurs groupes LDAP</block>
+  <block id="197a73ee4a006ef52c4fbd2b948357d6" category="paragraph-title">Synchronisation périodique du compte</block>
+  <block id="70d08db9e31d103a9a98ae62d1f934cd" category="paragraph-title">Désactivation et réinitialisation de la configuration LDAP</block>
+  <block id="19050c1d965285490381eed739648de9" category="paragraph-title">Paramètres de l'API REST</block>
+  <block id="bf14a6bb5484aa858662864c8b0d062f" category="paragraph-title">Sélection de valeurs</block>
+  <block id="9a588db8471730dbfebac65cd5467ad8" category="paragraph-title">Filtrage</block>
+  <block id="2808a34767e19b842d906ab8ab6264c6" category="paragraph-title">Tri</block>
+  <block id="cbb81506a7fe3ef03f7a89c76c52131a" category="paragraph-title">Pagination</block>
+  <block id="e93f994f01c537c4e2f7d8528c3eb5e9" category="paragraph-title">Nombre</block>
 </blocks>
